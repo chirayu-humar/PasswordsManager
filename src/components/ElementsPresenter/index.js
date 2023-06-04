@@ -40,12 +40,12 @@ const ElementsPresenter = props => {
         <hr />
         <div className="firstChild2">
           <input
-            htmlFor="show"
+            id="show"
             onClick={changePasswordVisibility}
             className="check"
             type="checkbox"
           />
-          <label id="show">Show passwords</label>
+          <label htmlFor="show">Show passwords</label>
         </div>
       </div>
       {/* first is ended */}
